@@ -1,0 +1,71 @@
+/* --- CSS Reset for Hub --- */
+body { 
+    margin: 0;
+    padding: 0; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    line-height: 1.6; 
+    background-color: #f7f7f7; /* Very light gray background */
+    color: #333;
+}
+
+/* --- Container and Header Styles --- */
+.container {
+    max-width: 900px;
+    margin: 0 auto; /* Center the entire content block */
+    padding: 20px;
+}
+
+h1 { 
+    color: #1a73e8; /* Google Blue */
+    border-bottom: 3px solid #ccc; 
+    padding-bottom: 15px;
+    margin: 30px 0;
+    text-align: center;
+}
+p {
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+/* --- Navigation List Styling --- */
+ul { 
+    list-style-type: none; 
+    padding: 0; 
+}
+
+li { 
+    margin-bottom: 12px; 
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    transition: all 0.2s ease-in-out;
+}
+
+li:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* --- Link Styling --- */
+a { 
+    text-decoration: none; 
+    color: #1a73e8; /* Match header color */
+    font-weight: 600; 
+    padding: 15px 20px;
+    display: block;
+}
+a:hover { 
+    color: #0056b3; 
+    background-color: #f1f7fe;
+    border-radius: 8px;
+}
+
+/* --- Note Styling --- */
+.note {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 0.9em;
+    color: #666;
+}

@@ -4,91 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Exercises - Navigation Hub</title>
-    <style>
-        /* General Styles */
-        body { 
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
-            line-height: 1.6; 
-            padding: 20px; 
-            background-color: #f0f4f8; /* Light blue-gray background */
-            color: #333;
-        }
-
-        /* Header Styling */
-        h1 { 
-            color: #1e3a8a; /* Dark blue title */
-            border-bottom: 3px solid #60a5fa; /* Blue underline */
-            padding-bottom: 10px;
-            margin-bottom: 30px;
-            text-align: center;
-        }
-        p {
-            margin-bottom: 20px;
-            text-align: center;
-            font-size: 1.1em;
-        }
-
-        /* List/Link Styling */
-        ul { 
-            list-style-type: none; 
-            padding: 0; 
-            max-width: 700px; /* Center the list on wide screens */
-            margin: 0 auto;
-        }
-
-        li { 
-            margin-bottom: 12px; 
-            background: #ffffff;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-            transition: transform 0.2s;
-        }
-
-        li:hover {
-            transform: translateY(-2px); /* Subtle lift on hover */
-            box-shadow: 0 6px 12px rgba(0,0,0,0.15);
-        }
-
-        a { 
-            text-decoration: none; 
-            color: #007bff; 
-            font-weight: 600; 
-            padding: 15px 20px;
-            display: block; /* Makes the entire list item clickable */
-        }
-        
-        a:hover { 
-            color: #0056b3; 
-            background-color: #e6f0ff; /* Light blue background on hover */
-            border-radius: 8px;
-        }
-
-        /* Note at the bottom */
-        .note {
-            margin-top: 40px;
-            text-align: center;
-            font-size: 0.9em;
-            color: #666;
-        }
-    </style>
+    <link rel="stylesheet" href="hub-style.css"> 
 </head>
 <body>
-    <h1>📚 The Odin Project: CSS Exercises Solved</h1>
-    <p>Welcome! Select an exercise below to view the live solution:</p>
-    
-    <ul>
-        <li><a href="01-cascade-fix/">01 - CSS Cascade & Specificity Fix</a></li>
-        <li><a href="css exercise-02-class-id-selectors/">02 - Class and ID Selectors</a></li>
-        <li><a href="css exercise-03 Grouping Selectors/">03 - Grouping Selectors</a></li>
-        <li><a href="css exercise-4 Chaining-Selectors/">04 - Chaining Selectors</a></li>
-        <li><a href="css exercise-5 descendant-combinator/">05 - Descendant Combinator</a></li>
-        <li><a href="margin-and-padding-2/">06 - Margin and Padding 2</a></li>
-        <li><a href="Margin and padding practice/">07 - Margin and Padding Practice  (New Exercise)</a></li>
-        <li><a href="css exercise 1-css-methods for adding css/">08 - Methods of adding css</a></li>
-    </ul>
+    <div class="container">
+        <h1>📚 The Odin Project: CSS Exercises Solved</h1>
+        <p>Welcome! Select an exercise below to view the live solution:</p>
+        
+        <ul>
+            <li><a href="01-cascade-fix/">01 - CSS Cascade & Specificity Fix</a></li>
+            <li><a href="css%20exercise-02-class-id-selectors/">02 - Class and ID Selectors</a></li>
+            <li><a href="css%20exercise-03%20Grouping%20Selectors/">03 - Grouping Selectors</a></li>
+            <li><a href="css%20exercise-4%20Chaining-Selectors/">04 - Chaining Selectors</a></li>
+            <li><a href="css%20exercise-5%20descendant-combinator/">05 - Descendant Combinator</a></li>
+            <li><a href="margin-and-padding-2/">06 - Margin and Padding 2</a></li>
+            <li><a href="Margin%20and%20padding%20practice/">07 - Margin and Padding Practice (New Exercise)</a></li>
+            <li><a href="css%20exercise%201-css-methods%20for%20adding%20css/">08 - Methods of adding css</a></li>
+        </ul>
 
-    <p class="note">
-        Note: Each link points to a sub-folder that contains the solved exercise's <code>index.html</code> and <code>style.css</code> files.
-    </p>
+        <p class="note">
+            Note: Each link points to a sub-folder that contains the solved exercise's <code>index.html</code> and <code>style.css</code> files.
+        </p>
+    </div>
 </body>
 </html>
