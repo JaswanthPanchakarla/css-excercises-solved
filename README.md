@@ -31,3 +31,20 @@ Practiced targeted, high-specificity styling:
 ### 5. Combinators and Nesting
 Demonstrated ability to style elements based on their position in the HTML tree:
 1.  Used the **Descendant Combinator** (e.g., `.container p`) to target elements that are nested inside a specific parent element, leaving globally matching elements unstyled.
+
+---
+
+## 📏 Margin and Padding Practice
+
+This exercise focuses on applying the **CSS Box Model** properties of **margin** and **padding** to achieve a specific layout and visual spacing.
+
+For this exercise, the `style.css` file was edited to make the divs look like the desired output, strictly by changing the values of `margin` and `padding`. No properties were added, removed, or changed in the HTML.
+
+### Self-Check for Success (Based on Final Code)
+
+The following spacing properties were applied to complete the exercise:
+
+* **Div One** has **34px padding** between its text and border, and a **15px margin** separating it from other elements.
+* **Div Three** has **33px padding** between its text and border.
+* The gap between **Div Two** and **Div Three** is controlled by **50px margin-bottom** on Div Two.
+* **Div Three** is aligned to the right using **`margin-left: auto;`** with a defined width.
